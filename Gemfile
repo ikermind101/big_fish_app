@@ -65,7 +65,7 @@ gem 'rectify'
 gem 'dotenv-rails'
 
 gem 'sprockets-rails', :require => 'sprockets/railtie'
-gem 'bootstrap', '~> 4.1.3'
+gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
 gem "parsley-rails"
 gem 'bootstrap-datepicker-rails'
