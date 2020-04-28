@@ -3,7 +3,7 @@ development:
   adapter: mysql2
   encoding: utf8mb4
   reconnect: false
-  database: fish_dev
+  database: big_fish_app_dev
   pool: 5
   username: root
   password: password
