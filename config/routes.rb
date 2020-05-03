@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
 
 root to: 'fish_types#index'
-resources :fish
+resources :fish_types
 
 
 end
