@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_05_03_183650) do
+ActiveRecord::Schema.define(version: 2020_05_03_194245) do
 
   create_table "fish_types", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
     t.string "desc"
@@ -26,12 +26,20 @@ ActiveRecord::Schema.define(version: 2020_05_03_183650) do
     t.integer "bait"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "color"
+  end
+
+  create_table "posts", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
+    t.string "desc"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "users", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4", force: :cascade do |t|
     t.string "username"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "lastname"
   end
 
 end
