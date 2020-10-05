@@ -24,7 +24,7 @@ gem 'turbolinks', '~> 5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
-gem "shrine", '~> 2.19.3'
+gem "shrine", '~> 3.3.0'
 gem "aws-sdk-s3"
 gem 'dropzonejs-rails'
 gem 'redis-activesupport'
